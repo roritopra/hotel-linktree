@@ -2,26 +2,53 @@
 @import "@heroui/styles";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fdfbf7;
+  --foreground: #4a151b;
+  --accent: #722f37;
+  --accent-foreground: #fdfbf7;
+  --gold: #c5a880;
+  --gold-light: #e5d5be;
+  --gold-dark: #8c714c;
+  --card-bg: rgba(253, 251, 247, 0.9);
+  --card-border: rgba(197, 168, 128, 0.5);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-inter), sans-serif;
+  --color-burgundy: #722f37;
+  --color-burgundy-dark: #2d0f12;
+  --color-gold: #c5a880;
+  --color-gold-light: #e5d5be;
+  --color-cream: #fdfbf7;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background) !important;
+  color: var(--foreground) !important;
+  font-family: var(--font-sans);
+  background-image: radial-gradient(circle at 50% -20%, rgba(197, 168, 128, 0.25), transparent 70%);
+  min-height: 100vh;
 }
+
+/* Clases de utilidad para el diseño clásico */
+.border-double-gold {
+  border: 3px double var(--gold);
+}
+
+.glass-panel {
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--card-border);
+}
+
+.glow-gold {
+  box-shadow: 0 0 15px rgba(197, 168, 128, 0.2);
+}
+
+.glow-burgundy {
+  box-shadow: 0 0 15px rgba(114, 47, 55, 0.2);
+}
+
+

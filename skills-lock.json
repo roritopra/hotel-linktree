@@ -6,6 +6,12 @@
       "sourceType": "github",
       "skillPath": "skills/heroui-react/SKILL.md",
       "computedHash": "f4a764d21a39ccc5b2076a869cf083bbfdb983e81f9deda8d75fef42c939a993"
+    },
+    "impeccable": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/impeccable/SKILL.md",
+      "computedHash": "e72a74ef2e6272cfcf8fce5923d10e9fe9bdb2b8adb11fa08ab274c9708a04af"
     }
   }
 }
