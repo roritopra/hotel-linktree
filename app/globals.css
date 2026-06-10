@@ -11,6 +11,7 @@
   --gold-dark: #8c714c;
   --card-bg: rgba(253, 251, 247, 0.9);
   --card-border: rgba(197, 168, 128, 0.5);
+  --text-muted: #5e242a;
 }
 
 @theme {
@@ -50,5 +51,16 @@ body {
 .glow-burgundy {
   box-shadow: 0 0 15px rgba(114, 47, 55, 0.2);
 }
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transform: none !important;
+  }
+}
+
 
 

@@ -11,9 +11,9 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-start px-4 py-12 relative overflow-hidden select-none bg-[#fdfbf7] text-[#4a151b]">
+    <div className="min-h-screen w-full flex flex-col items-center justify-start px-4 py-6 md:py-12 relative overflow-hidden select-none bg-[#fdfbf7] text-[#4a151b]">
       {/* Contenedor principal del Linktree con diseño premium */}
-      <main className="w-full max-w-md glass-panel border-double-gold rounded-3xl px-6 py-10 my-4 shadow-2xl relative z-10 hover:shadow-amber-500/5 transition-all duration-300">
+      <main className="w-full max-w-md glass-panel border-double-gold rounded-3xl px-5 py-8 md:px-6 md:py-10 my-2 md:my-4 shadow-2xl relative z-10 hover:shadow-amber-500/5 transition-all duration-300">
         {/* Cabecera / Logotipo */}
         <div className="flex flex-col items-center justify-center mb-8">
           <Logo />
@@ -24,7 +24,7 @@ export default function Home() {
           
           {/* Grupo 1: Sitio Oficial */}
           <div>
-            <h2 className="font-serif italic text-xs tracking-wider text-gold-dark uppercase mb-3 text-center">
+            <h2 className="font-sans text-[11px] font-semibold tracking-widest text-gold-dark uppercase mb-3 text-center">
               Portal Oficial
             </h2>
             <div className="space-y-3">
@@ -42,7 +42,7 @@ export default function Home() {
                     <h3 className="font-sans font-semibold text-sm text-burgundy">
                       Sitio Web Oficial
                     </h3>
-                    <p className="font-sans text-xs text-burgundy/70 mt-0.5">
+                    <p className="font-sans text-xs text-[var(--text-muted)] mt-0.5">
                       Explora nuestras habitaciones, servicios y ubicación
                     </p>
                   </div>
@@ -57,7 +57,7 @@ export default function Home() {
 
           {/* Grupo 2: Chat y Mensajería */}
           <div>
-            <h2 className="font-serif italic text-xs tracking-wider text-gold-dark uppercase mb-3 text-center">
+            <h2 className="font-sans text-[11px] font-semibold tracking-widest text-gold-dark uppercase mb-3 text-center">
               Escríbenos por WhatsApp
             </h2>
             <div className="space-y-3">
@@ -76,7 +76,7 @@ export default function Home() {
                     <h3 className="font-sans font-semibold text-sm text-burgundy">
                       WhatsApp Asesor Humano
                     </h3>
-                    <p className="font-sans text-xs text-burgundy/70 mt-0.5">
+                    <p className="font-sans text-xs text-[var(--text-muted)] mt-0.5">
                       Chat directo con nuestro personal de reservas
                     </p>
                   </div>
@@ -95,17 +95,17 @@ export default function Home() {
                 className="block group"
               >
                 <div className="flex items-center gap-4 w-full p-4 rounded-xl border border-gold/40 hover:border-gold bg-white/50 hover:bg-burgundy/5 transition-all duration-300 transform group-hover:translate-y-[-2px] shadow-sm">
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center bg-cyan-500/10 text-cyan-600 group-hover:scale-110 transition-all duration-300">
+                  <div className="w-10 h-10 rounded-full flex items-center justify-center bg-cyan-500/10 text-cyan-700 group-hover:scale-110 transition-all duration-300">
                     <Icon icon="mdi:robot-excited-outline" className="w-6 h-6" />
                   </div>
                   <div className="flex-1 text-left">
                     <h3 className="font-sans font-semibold text-sm text-burgundy flex items-center gap-2">
                       WhatsApp Inteligencia Artificial
-                      <span className="text-[10px] bg-cyan-500/10 text-cyan-600 px-1.5 py-0.5 rounded-full border border-cyan-500/20 uppercase tracking-widest font-bold">
+                      <span className="text-[10px] bg-cyan-500/10 text-cyan-700 px-1.5 py-0.5 rounded-full border border-cyan-500/20 uppercase tracking-widest font-bold">
                         Demo
                       </span>
                     </h3>
-                    <p className="font-sans text-xs text-burgundy/70 mt-0.5">
+                    <p className="font-sans text-xs text-[var(--text-muted)] mt-0.5">
                       Chatea con nuestro asistente inteligente 24/7
                     </p>
                   </div>
@@ -120,7 +120,7 @@ export default function Home() {
 
           {/* Grupo 3: Atención por Voz */}
           <div>
-            <h2 className="font-serif italic text-xs tracking-wider text-gold-dark uppercase mb-3 text-center">
+            <h2 className="font-sans text-[11px] font-semibold tracking-widest text-gold-dark uppercase mb-3 text-center">
               Llámanos
             </h2>
             <div className="space-y-3">
@@ -137,7 +137,7 @@ export default function Home() {
                     <h3 className="font-sans font-semibold text-sm text-burgundy">
                       Teléfono Recepción (Humano)
                     </h3>
-                    <p className="font-sans text-xs text-burgundy/70 mt-0.5">
+                    <p className="font-sans text-xs text-[var(--text-muted)] mt-0.5">
                       Línea tradicional directa al lobby del hotel
                     </p>
                   </div>
@@ -154,17 +154,17 @@ export default function Home() {
                 className="block group"
               >
                 <div className="flex items-center gap-4 w-full p-4 rounded-xl border border-gold/40 hover:border-gold bg-white/50 hover:bg-burgundy/5 transition-all duration-300 transform group-hover:translate-y-[-2px] shadow-sm">
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center bg-purple-500/10 text-purple-600 group-hover:scale-110 transition-all duration-300">
+                  <div className="w-10 h-10 rounded-full flex items-center justify-center bg-purple-500/10 text-purple-700 group-hover:scale-110 transition-all duration-300">
                     <Icon icon="ic:baseline-settings-phone" className="w-6 h-6" />
                   </div>
                   <div className="flex-1 text-left">
                     <h3 className="font-sans font-semibold text-sm text-burgundy flex items-center gap-2">
                       Teléfono Inteligencia Artificial
-                      <span className="text-[10px] bg-purple-500/10 text-purple-600 px-1.5 py-0.5 rounded-full border border-purple-500/20 uppercase tracking-widest font-bold">
+                      <span className="text-[10px] bg-purple-500/10 text-purple-700 px-1.5 py-0.5 rounded-full border border-purple-500/20 uppercase tracking-widest font-bold">
                         Demo
                       </span>
                     </h3>
-                    <p className="font-sans text-xs text-burgundy/70 mt-0.5">
+                    <p className="font-sans text-xs text-[var(--text-muted)] mt-0.5">
                       Línea automatizada de voz con asistente IA
                     </p>
                   </div>
@@ -179,7 +179,7 @@ export default function Home() {
 
           {/* Grupo 4: Supplai y Descargas */}
           <div>
-            <h2 className="font-serif italic text-xs tracking-wider text-gold-dark uppercase mb-3 text-center">
+            <h2 className="font-sans text-[11px] font-semibold tracking-widest text-gold-dark uppercase mb-3 text-center">
               Tecnología Supplai
             </h2>
             <div className="space-y-3">
@@ -198,7 +198,7 @@ export default function Home() {
                     <h3 className="font-sans font-semibold text-sm text-burgundy">
                       Visitar Plataforma Supplai
                     </h3>
-                    <p className="font-sans text-xs text-burgundy/70 mt-0.5">
+                    <p className="font-sans text-xs text-[var(--text-muted)] mt-0.5">
                       Conoce la plataforma SaaS que impulsa esta tecnología
                     </p>
                   </div>
@@ -228,7 +228,7 @@ export default function Home() {
                         PDF
                       </span>
                     </h3>
-                    <p className="font-sans text-xs text-burgundy/80 mt-0.5">
+                    <p className="font-sans text-xs text-[var(--text-muted)] mt-0.5">
                       Obtén la nueva versión del dossier de Supplai
                     </p>
                   </div>
