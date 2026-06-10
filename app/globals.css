@@ -16,7 +16,7 @@
 
 @theme {
   --font-serif: var(--font-cormorant), Georgia, serif;
-  --font-sans: var(--font-inter), sans-serif;
+  --font-sans: var(--font-montserrat), sans-serif;
   --color-burgundy: #722f37;
   --color-burgundy-dark: #2d0f12;
   --color-gold: #c5a880;

@@ -11,7 +11,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-start px-4 py-6 md:py-12 relative overflow-hidden select-none bg-[#fdfbf7] text-[#4a151b]">
+    <div className="min-h-screen w-full flex flex-col items-center justify-start px-4 py-6 md:py-12 relative overflow-hidden select-none bg-cream text-[#4a151b]">
       {/* Contenedor principal del Linktree con diseño premium */}
       <main className="w-full max-w-md glass-panel border-double-gold rounded-3xl px-5 py-8 md:px-6 md:py-10 my-2 md:my-4 shadow-2xl relative z-10 hover:shadow-amber-500/5 transition-all duration-300">
         {/* Cabecera / Logotipo */}
@@ -246,10 +246,10 @@ export default function Home() {
         {/* Pie de página sutil */}
         <footer className="mt-10 text-center">
           <p className="font-sans text-[10px] tracking-widest uppercase text-burgundy/55">
-            Hotel Boulevard del Río © 2026
+            Hotel Boulevard del Río
           </p>
           <p className="font-sans text-[9px] text-burgundy/45 mt-1">
-            Impulsado por Tecnología SaaS de Supplai
+            Impulsado por Tecnología SaaS de SupplAI
           </p>
         </footer>
       </main>
