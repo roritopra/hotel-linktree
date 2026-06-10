@@ -73,7 +73,7 @@ export default function Home() {
             </h2>
             <div className="space-y-3">
               <a
-                href="https://wa.me/573000000000?text=Hola,%20deseo%20comunicarme%20con%20un%20asesor"
+                href="https://wa.me/573217593780?text=Hola,%20deseo%20comunicarme%20con%20un%20asesor"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block group"
@@ -91,7 +91,7 @@ export default function Home() {
               </a>
 
               <a
-                href="https://wa.me/573111111111?text=Hola,%20deseo%20chatear%20con%20el%20asistente%20de%20IA"
+                href="https://api.whatsapp.com/send/?phone=573151176252&text=Hola%2C+deseo+chatear+con+el+asistente+de+IA&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block group"
@@ -119,7 +119,7 @@ export default function Home() {
               Llámanos
             </h2>
             <div className="space-y-3">
-              <a href="tel:+576028888888" className="block group">
+              <a href="tel:+573217593780" className="block group">
                 <div className="flex items-center gap-4 w-full p-4 rounded-xl border border-gold/40 hover:border-gold bg-white/50 hover:bg-burgundy/5 transition-all duration-300 transform group-hover:translate-y-[-2px] shadow-sm">
                   <div className="w-10 h-10 rounded-full flex items-center justify-center bg-amber-500/10 text-amber-600 group-hover:scale-110 transition-all duration-300">
                     <Icon icon="ic:baseline-phone" className="w-6 h-6" />
@@ -132,7 +132,7 @@ export default function Home() {
                 </div>
               </a>
 
-              <a href="tel:+576029999999" className="block group">
+              <a href="tel:6023692668" className="block group">
                 <div className="flex items-center gap-4 w-full p-4 rounded-xl border border-gold/40 hover:border-gold bg-white/50 hover:bg-burgundy/5 transition-all duration-300 transform group-hover:translate-y-[-2px] shadow-sm">
                   <div className="w-10 h-10 rounded-full flex items-center justify-center bg-purple-500/10 text-purple-700 group-hover:scale-110 transition-all duration-300">
                     <Icon icon="ic:baseline-settings-phone" className="w-6 h-6" />
@@ -153,7 +153,7 @@ export default function Home() {
           {/* ── Banner: Portafolio Supplai ── */}
           <div className="relative rounded-2xl overflow-hidden h-36 group cursor-default shadow-md border border-gold/30">
             <Image
-              src="/mockup_dossier.png"
+              src="/mockup_dossier.jpg"
               alt="Portafolio y Dossier de Supplai"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -176,7 +176,7 @@ export default function Home() {
             </h2>
             <div className="space-y-3">
               <a
-                href="https://supplai.com.co"
+                href="https://supplaitech.co/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block group"
@@ -208,7 +208,7 @@ export default function Home() {
                       Descargar Portafolio
                       <span className="text-[10px] bg-burgundy/15 text-burgundy px-1.5 py-0.5 rounded-full uppercase tracking-wider font-bold">PDF</span>
                     </h3>
-                    <p className="font-sans text-xs text-[var(--text-muted)] mt-0.5">Obtén la nueva versión del dossier de Supplai</p>
+                    <p className="font-sans text-xs text-[var(--text-muted)] mt-0.5">Obtén la nueva versión del portafolio de Supplai</p>
                   </div>
                   <Icon icon="mdi:download" className="w-5 h-5 text-burgundy group-hover:translate-y-0.5 transition-transform" />
                 </div>
@@ -221,10 +221,10 @@ export default function Home() {
         {/* Pie de página */}
         <footer className="mt-10 text-center">
           <p className="font-sans text-[10px] tracking-widest uppercase text-burgundy/55">
-            Hotel Boulevard del Río © 2026
+            Hotel Boulevard del Río
           </p>
           <p className="font-sans text-[9px] text-burgundy/45 mt-1">
-            Impulsado por Tecnología SaaS de Supplai
+            Impulsado por Tecnología de SupplAI
           </p>
         </footer>
       </main>
